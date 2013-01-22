@@ -29,24 +29,7 @@ endif;
     <div id="content" role="main">
         <iframe id="blogframe" src="http://skyeboy.blogspot.co.uk/" width="100%" height="2500" scrolling="no" frameborder="0"></iframe>
 
-<?php foreach ($rss_items As $item) { ?>
 
-            <article  <?php post_class(); ?>>
-                <header class="entry-header">
-                    <h1 class="entry-title"><a target="_blank" href='<?php echo esc_url($item->get_permalink()); ?>'
-                                               title='<?php echo 'Posted ' . $item->get_date('j F Y | g:i a'); ?>'>
-    <?php echo esc_html($item->get_title()); ?></a></h1>
-                </header><!-- .entry-header -->
-
-                <div class="entry-content">
-    <?php echo $item->get_content(); ?>
-                </div><!-- .entry-content -->
-                <footer class="entry-meta">
-
-                </footer><!-- .entry-meta -->
-            </article><!-- #post-->
-
-<?php } // end of the loop.  ?>
         <footer class="blog-link">
             <a href="http://skyeboy.blogspot.co.uk/" target="_blank" >Read older items...</a>
         </footer>
