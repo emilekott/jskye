@@ -1,0 +1,80 @@
+/*
+Theme Name:     skye
+Description:    
+Author:         admin
+Template:       twentyeleven
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../twentyeleven/style.css");
+
+h2{
+    font-size: 1.3em;
+}
+
+#page{
+    background: #060606 !important;
+}
+
+#branding{
+    padding: 0;
+    border-top: none !important;
+    height: 164px;
+    width: 1000px;
+
+}
+
+#branding img{
+    width: auto;
+}
+
+#site-title{
+    padding: 48px 0 0 0;
+}
+#site-description {
+    padding: 0;
+    margin: 0 270px 30px 0;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#site-description a{
+    color: #fff;
+    text-shadow:2px 2px 4px #000000;
+    font-weight: bold;
+    font-size: 1.4em;
+    -webkit-transition: color 1s ease;
+    -moz-transition: color 1s ease;
+    -o-transition: color 1s ease;
+    transition: color 1s ease;
+}
+
+#site-description a:hover{
+    text-decoration: none;
+    color: #c03e3d;
+}
+
+.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title {
+margin: 0 auto;
+width: 100%;
+}
+
+.rss-post{
+    margin-bottom: 50px;
+}
+
+
+.blog-link{
+    margin: 50px 0;
+    font-size: 1.2em;
+}
+
+#sponsors{
+    position:absolute;
+    top:48px;
+    right: 7.6%;
+}
+
+.sponsor{
+    margin: 0 0 10px 0;
+}
