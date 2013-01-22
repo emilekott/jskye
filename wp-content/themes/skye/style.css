@@ -9,6 +9,19 @@ Template:       twentyeleven
 
 @import url("../twentyeleven/style.css");
 
+.singular #content,
+.left-sidebar.singular #content {
+
+	margin: 0 76px;
+	position: relative;
+	width: 848px;
+}
+
+#page {
+	margin: 2em auto;
+	width: 960px;
+}
+
 h2{
     font-size: 1.3em;
 }
@@ -21,7 +34,7 @@ h2{
     padding: 0;
     border-top: none !important;
     height: 164px;
-    width: 1000px;
+    width: 960px;
 
 }
 
@@ -78,3 +91,37 @@ width: 100%;
 .sponsor{
     margin: 0 0 10px 0;
 }
+
+
+body.archive article.category-videos{
+    float: left;
+    text-align: center;
+    width: 408px;
+    padding: 0 !important;
+    margin: 12px 6px;
+}
+
+body.archive article.category-videos img{
+    border: 4px solid #fff;
+    -webkit-transition: border-color 1s ease;
+    -moz-transition: border-color 1s ease;
+    -o-transition: border-color 1s ease;
+    transition: border-color 1s ease;
+}
+
+body.archive article.category-videos .video-title{
+    height: 30px;
+}
+
+body.archive article.category-videos img:hover{
+    border-color: #c03e3d;
+}
+
+.singular.page .hentry {
+padding: 0 !important;
+}
+
+.video-description{
+    margin: 20px 0;
+}
+
