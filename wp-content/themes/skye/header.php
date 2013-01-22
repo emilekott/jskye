@@ -83,7 +83,7 @@ if ($paged >= 2 || $page >= 2)
                         ( /* $src, $width, $height */ $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), array($header_image_width, $header_image_width)) ) &&
                         $image[1] >= $header_image_width) :
                     // Houston, we have a new header image!
-                    $featured_image = TRUE;
+                    $featured_image = FALSE;
                     //$banner = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID));
                     $banner = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'post-thumbnail' );
                     

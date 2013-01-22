@@ -155,6 +155,7 @@ function twentyeleven_setup() {
 	// Used for featured posts if a large-feature doesn't exist.
 	add_image_size( 'small-feature', 500, 300 );
         add_image_size( 'featured-banner', 1000, 164 );
+        add_image_size('vimeo-thumb', 200, 112, true);
 
 	// Default custom headers packaged with the theme. %s is a placeholder for the theme template directory URI.
 	register_default_headers( array(

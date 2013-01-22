@@ -1,6 +1,7 @@
 <?php
 include 'vimeo.php';
 
+
 function register_button( $buttons ) {
    array_push( $buttons, "|", "vimeo" );
    return $buttons;
