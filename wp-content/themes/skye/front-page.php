@@ -27,7 +27,7 @@ endif;
 
 <div id="primary" class="showcase">
     <div id="content" role="main">
-        <iframe id="blogframe" src="http://skyeboy.blogspot.co.uk/" width="100%" height="2500" scrolling="no" frameborder="0"></iframe>
+        <iframe id="blogframe" src="http://skyeboy.blogspot.co.uk/" width="100%" height="3500" scrolling="no" frameborder="0"></iframe>
 
 
         <footer class="blog-link">
