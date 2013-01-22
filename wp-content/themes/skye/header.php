@@ -115,6 +115,7 @@ if ($paged >= 2 || $page >= 2)
                     <div id="sponsors">
                         <div class="sponsor"><a target="_blank" href="http://www.robertoriccidesigns.com/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/rrd.png" /></a></div>
                         <div class="sponsor"><a target="_blank" href="http://www.mauifin.com/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/MFC.png" /></a></div>
+                        <div class="sponsor"><a target="_blank" href="http://www.showergreen.com/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/shower-green.png" /></a></div>
                     </div>
 
                 
