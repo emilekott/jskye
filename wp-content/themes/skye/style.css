@@ -14,7 +14,7 @@ Template:       twentyeleven
 
 	margin: 0 76px;
 	position: relative;
-	width: 848px;
+	width: 808px;
 }
 
 #page {
@@ -96,9 +96,9 @@ width: 100%;
 body.archive article.category-videos{
     float: left;
     text-align: center;
-    width: 408px;
+    width: 358px;
     padding: 0 !important;
-    margin: 12px 6px;
+    margin: 23px;
 }
 
 body.archive article.category-videos img{

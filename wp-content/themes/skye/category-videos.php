@@ -18,14 +18,14 @@ get_header();
                         <div class="video-thumb">
                             
                                 <?php
-                                $filename = 'wp-content/uploads/video_thumb_' . get_the_ID() . '.jpg';
+                                $filename = 'wp-content/uploads/video_thumb_350_' . get_the_ID() . '.jpg';
                                 $upload_dir = wp_upload_dir();
-                                $url = $upload_dir['baseurl'].'/video_thumb_' . get_the_ID() . '.jpg';
+                                $url = $upload_dir['baseurl'].'/video_thumb_350_' . get_the_ID() . '.jpg';
                                 if (!file_exists($filename)) {
                                     $image = wp_get_image_editor(get_video_thumbnail()); // Return an implementation that extends <tt>WP_Image_Editor</tt>
 
                                     if (!is_wp_error($image)) {
-                                        $image->resize(406, 232, true);
+                                        $image->resize(350, 197, true);
                                         $image->save($filename);
                                     }
                                 }
